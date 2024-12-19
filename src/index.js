@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Ensure this is included
-import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
