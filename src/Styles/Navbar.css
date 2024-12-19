@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* .whole-app{
+  margin-top: -310px;
+  width: 100vh;
+  height: 200vh;
+}  */
+
+.custom-search {
+    width: 200px; 
+    font-family: "Raleway", sans-serif;
+  }
+ 
+ul {
+    margin-left: 80px;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+    
+
+}
+
+
+ul li {
+    text-transform: uppercase; 
+    margin-right: 30px;
+   
+   
+}
+.list{
+  color: black;
+   font-family: "Raleway", sans-serif; 
+   font-size: 14px;
+   font-weight: 500;
+   
+  
+}
+.list:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    
+}
+
+.list-icon{
+    color:black;
+   font-size: 20px;
+   font-family:"Roboto", sans-serif; 
+   font-weight: bold;
+   margin-left: 10px;
+}
+.list-icon:hover{
+    color: black;
+}
+/* women */
+  .women-header-class,.men-header-class,.kids-header-class,.accessories-header-class{
+    position: relative;
+    
+  }
+  
+  .women-list,.men-list,.kids-list,.accessories-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 10;
+  
+    
+  }
+  
+  .women-list ul,.men-list ul,.kids-list ul,.accessories-list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .women-list li,
+  .men-list li,
+  .kids-list li,
+  .accessories-list li {
+    padding: 8px 16px;
+  }
+  .women-list li a,
+  .men-list li a,
+  .kids-list li a,
+  .accessories-list a{
+    text-decoration: none;
+    color: black;
+  }
+  .women-list li:hover,
+  .men-list li:hover,
+  .kids-list li:hover,
+  .accessories-list li:hover {
+   background-color: white;
+  }
+  .women-list li a:hover,
+  .men-list li a:hover,
+  .kids-list li a:hover,
+  .accessories-list a:hover{
+    
+    color:burlywood;
+  }
+  .dropdown-main {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: absolute;
+    top: 120%;
+    left: -300px;
+    z-index: 1000;
+    width: max-content;
+  }
+  .category {
+    margin-right: 50px;
+    width: max-content;
+   
+    
+  }
+  
+  .category h6 {
+    font-weight: bold;
+    font-family: "Noto Serif Oriya", serif;
+    font-size: 16px;
+    letter-spacing: 0;
+   margin-left: -10px;
+  }
+  
+  .category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category ul li {
+    font-family: "Lato", sans-serif;
+    margin-left: -10px;
+     
+  }
+  .nav-link {
+    position: relative;
+  }
+  
+  .nav-link {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    background-color:brown;
+    color: white;
+    border-radius: 50%;
+    padding: 0.25em 0.5em;
+    font-size: 0.75rem;
+  }
+   

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.whole-accordion {
+  margin-left: -60px;
+  max-height: 450px; 
+  overflow-y: auto;  /* Enable vertical scrolling */
+  margin-top: 50px;
+}
+
+.whole-accordion h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.accordion-item {
+  border: none !important;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.form-check-input {
+  border-radius: none !important;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}

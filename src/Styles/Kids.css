@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+/* Kids product list container */
+.Kids-product-list-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+/* Kids product card */
+.Kids-product-cards {
+  border: none;
+}
+
+/* Kids product title */
+.Kids-product-title {
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  color: #bf5b49;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Kids product price */
+.Kids-product-price {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: -10px;
+  color: #bf5b49;
+  font-size: 16px;
+}
+
+/* Breadcrumb styling */
+.breadcrumb-item {
+  font-family: "Ruwudu", serif;
+  margin-top: 10px;
+  margin-left: 15px;
+  color: #153d57;
+}
+
+/* Pagination */
+.pagination {
+  margin-left: 10px;
+}
+
+.page-item a {
+  color: #bf5b49;
+}
+
+/* Section header */
+h6 {
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  margin-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Product image */
+.Kids-product-card-img-top {
+  position: relative;
+}
+
+/* Heart icon */
+.heart-icon {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+/* Buttons container */
+.Kids-buy {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+/* Buttons */
+.Kids-buy button {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  background-color: brown;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+}

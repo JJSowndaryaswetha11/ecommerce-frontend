@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.card-component {
+    width: 80%;
+    padding: 20px;
+    margin-left: 100px;
+    
+  }
+  h2{
+    
+    font-family: "Raleway", sans-serif;
+    color: #092c42;
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+  
+  .slick-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+   .slider{
+   border: none;
+    transition: transform 0.3s;
+  }
+  .slider-card{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .card-body {
+    padding: 16px;
+  }
+  
+ .latest-para{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    color: #bf5b49;
+ }
+  
+  .slick-dots li button:before {
+    color: #000;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    color: black;
+  }

@@ -1,0 +1,131 @@
+.regitser-form{
+    font-family: "Raleway", sans-serif;
+  color: #bf5b49;
+  font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-left:500px;
+    padding: 50px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+   
+}
+.register-heading{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: brown;
+}
+.register-form-group{
+    margin: 15px;
+    width: 100%;
+}
+.register-form-group label{
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 400;
+}
+.register-form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Raleway", sans-serif;
+}
+
+.register-form-group input:focus {
+    border-color: brown;
+    outline: none;
+    box-shadow: 0 0 5px rgba(165, 42, 42, 0.5);
+}
+.register-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-button{
+    height: fit-content;
+    color: white;
+    background-color: brown;
+    border: none;
+}
+.register-button:hover{
+    background-color: brown;
+}
+.login-button:hover{
+    background-color: brown;
+}
+/* For small mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .regitser-form {
+        padding: 15px;
+        width: 90%; /* Occupy most of the screen width */
+        box-shadow: none; /* Simplify shadows for smaller screens */
+    }
+
+    .register-heading {
+        font-size: 20px; /* Reduce font size for heading */
+    }
+
+    .register-buttons {
+        flex-direction: column;
+    }
+
+    .register-button,
+    .login-button {
+        padding: 8px;
+        font-size: 14px; /* Smaller font for buttons */
+    }
+}
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .regitser-form {
+        width: 100%; /* Take full width */
+        padding: 20px; /* Adjust padding for better spacing */
+        margin: 0; /* Remove left margin for centered alignment */
+        box-shadow: none;
+    }
+
+    .register-heading {
+        font-size: 24px; /* Slightly smaller font for heading */
+    }
+
+    .register-buttons {
+        flex-direction: column;
+    }
+
+    .register-button,
+    .login-button {
+        width: 100%; /* Stretch buttons to full width */
+        margin-top: 10px;
+    }
+}
+
+/* For large screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .regitser-form {
+        width: 400px; /* Fix the form width */
+        padding: 40px; /* Add more padding */
+    }
+
+    .register-heading {
+        font-size: 28px; /* Larger font for heading on big screens */
+    }
+
+    .register-buttons {
+        flex-direction: row; /* Keep buttons in a row */
+        justify-content: space-between; /* Space out buttons */
+    }
+
+    .register-button,
+    .login-button {
+        width: auto; /* Keep buttons at their natural width */
+        padding: 12px 24px; /* Larger padding for better aesthetics */
+        font-size: 16px;
+    }
+}
+

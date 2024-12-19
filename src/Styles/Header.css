@@ -1,0 +1,11 @@
+.header{
+    background-color: #092c42;
+    color: white;
+    padding: 10px;
+    font-family: "PT Sans", sans-serif;
+    height: 50px;
+} 
+.header p{
+    text-align: center;
+   
+}

@@ -1,0 +1,126 @@
+/* Cart.css */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Ruwudu:wght@400;500;600;700&display=swap');
+ .cart-heading{
+  font-family: "Josefin Sans", sans-serif;
+ }
+   .cart-page li{
+    list-style-type: none;
+    margin-top: 20px;
+   }
+   .cart{
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    gap: 30px;
+    justify-content: space-between;
+     }
+     .cart-image img{
+      width: 100px;
+     }
+     .cart-details{
+     margin-left: -30px;
+      margin-top: 2px;
+     }
+     .cart-details h4{
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: brown;
+      
+     }
+     .cart-details p{
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      text-transform: capitalize;
+      color: brown;
+     
+      
+     }
+     
+     .quantity-controls button{
+       padding-top:1px;
+       padding-bottom: 2px;
+       padding-left: 30px;
+       padding-right: 30px;
+       border-radius: 50px;
+       border: none;
+      
+
+     }
+     .quantity-number{
+      margin: 10px;
+      font-family:"Josefin Sans", sans-serif ;
+      color: brown;
+     }
+     .remove {
+      background: none;
+      border: none;
+      color:brown;
+       margin-top: -80px;
+      margin-left: -80px; 
+      font-size: 24px;
+      cursor: pointer;
+      padding: 0;
+    }
+   .total h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+   margin-top: 5px;
+   font-weight:bold;
+   color: brown;
+  
+   }
+   .item-total p{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+   margin-top: 5px;
+   font-weight:bold;
+   color: brown;
+   }
+   .empty{
+    font-family: "Josefin Sans", sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+   }
+   .empty-link{
+    text-decoration: none;
+    color: brown;
+   }
+   .empty-link button{
+    padding:10px 40px ;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+   }
+   .pay-button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+   }
+   /* Media Queries */
+@media (max-width: 768px) {
+  .cart {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .remove {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .cart-details,
+  .quantity-controls {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .quantity-controls button {
+    padding: 10px 20px;
+  }
+}
+    

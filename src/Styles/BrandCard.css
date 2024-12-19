@@ -1,0 +1,32 @@
+.Brand-list-images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.brand-heading{
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #092c42;
+}
+.brand-cards{
+    width: 70%;
+    border: none;
+}
+.brand-card-img-wrapper{
+   overflow: hidden;
+}
+.brand-card-img-top{
+    width: 100%;
+    
+}
+.brand-cards p{
+    margin-top: 8px;
+    font-family: "Playfair Display", serif;
+    color: #bf5b49;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}

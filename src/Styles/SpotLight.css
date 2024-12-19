@@ -1,0 +1,39 @@
+.spot-image-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.spotLight-cards{
+    width: 30%;
+    border-radius: 0;
+    border: none;
+}
+.spot-card-img-wrapper{
+    overflow: hidden;
+}
+.spot-card-img-top{
+    width: 100%;
+    transition: transform 0.3s ease;
+    
+}
+.spot-card-img-top:hover{
+    transform: scale(1.1);
+}
+.spotlight-heading{
+    font-family: "Raleway", sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+    color: #092c42;
+}
+.spotLight-cards p{
+    margin-top: 8px;
+    font-family: "Playfair Display", serif;
+    color: #bf5b49;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}

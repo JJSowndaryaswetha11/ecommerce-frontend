@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ruwudu:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-image{
+    position: relative;
+}
+.product-favorites{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+.product{
+    margin-left: 20px;
+}
+ 
+.product-price p{
+    font-family: "Outfit", sans-serif;
+    font-size:20px;
+    margin-top: 20px;
+}
+.product-rating{
+    margin-top: -20px;
+}
+.heading2 h4{
+    font-size: 32px;
+}
+.product-description-heading{
+    font-family:"Outfit", sans-serif;
+    font-size:25px;
+   font-weight:500;
+    text-transform: capitalize; 
+    margin-top: 10px;
+}
+.product-para{
+    font-family: "Outfit", sans-serif;
+    margin-top: -10px;
+}
+.size-button {
+    padding: 10px 15px;
+   margin-top: 15px;
+   margin-right: 10px;
+    border: 2px solid brown;
+    border-radius: 5px;
+    background-color: brown;
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
+  
+  .size-button:hover {
+    background-color: brown;
+  }
+  
+  .size-button.selected {
+    background-color:brown; 
+    border-color: white;
+    color: white;
+  }
+  .selected-size{
+    font-size: 18px;
+    font-weight: 500;
+    color: brown;
+  }
+  .cart-button button{
+    padding: 10px 25px;
+    border-radius:5px;
+    background-color:brown;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+  }

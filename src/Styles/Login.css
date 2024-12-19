@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+    margin-left: 500px;
+    animation: fadeIn 1s ease-in-out;
+   
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.login label{
+    color: brown;
+    font-family:"Raleway", sans-serif ;
+}
+.login-heading{
+    color:brown ;
+    font-family:"Raleway", sans-serif ;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.login-form-group {
+    padding-bottom: 10px;
+}
+
+.login-email {
+    margin-bottom: 10px;
+}
+
+.login-password {
+    margin-bottom: 10px;
+}
+.login-form-group input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Raleway", sans-serif;
+}
+.login-form-group input:focus {
+    border-color: brown;
+    outline: none;
+    box-shadow: 0 0 5px rgba(165, 42, 42, 0.5);
+}
+.login-buttons {
+    display: flex;
+    width: fit-content;
+    font-family:"Raleway", sans-serif ;
+   
+}
+.login-buttons button{
+    color: white;
+    background-color: brown;
+    border: none;
+}
+.login-buttons button:hover{
+    background-color: brown;
+}
+
+.register-button {
+    height: fit-content;
+    margin-top: 10px;
+    color: white;
+    background-color: brown;
+    border: none;
+}
+.register-button:hover{
+    background-color: brown;
+} 
+/* For small mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .login {
+        width: 90%; /* Occupy most of the screen */
+        margin: 0 auto; /* Center the form horizontally */
+        padding: 15px; /* Adjust padding for smaller screens */
+        border-radius: 6px; /* Slightly reduce border radius */
+        box-shadow: none; /* Simplify shadow on small devices */
+    }
+
+    .login-heading {
+        font-size: 24px; /* Reduce font size for heading */
+        margin-bottom: 15px;
+    }
+
+    .login-form-group input {
+        padding: 8px; /* Reduce padding inside input fields */
+        font-size: 14px; /* Smaller font for input fields */
+    }
+
+    .login-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .login-buttons button {
+        width: 100%; /* Full-width buttons */
+        margin-bottom: 10px; /* Add spacing between buttons */
+    }
+
+    .register-button {
+        width: 100%; /* Full-width register button */
+        margin-top: 10px;
+    }
+}
+
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .login {
+        width: 80%; /* Occupy 80% of the screen */
+        margin: 0 auto; /* Center the form */
+        padding: 20px; /* Adjust padding for medium-sized screens */
+    }
+
+    .login-heading {
+        font-size: 28px; /* Slightly reduce heading size */
+    }
+
+    .login-form-group input {
+        padding: 10px; /* Adjust input padding */
+        font-size: 16px; /* Maintain good readability */
+    }
+
+    .login-buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        width: 100%;
+    }
+
+    .login-buttons button,
+    .register-button {
+        width: 100%; /* Full-width buttons */
+        margin-top: 10px; /* Add spacing between buttons */
+    }
+}
+
+/* For large screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .login {
+        width: 350px; /* Fix the form width for larger screens */
+        padding: 30px; /* Add more padding */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow for large screens */
+    }
+
+    .login-heading {
+        font-size: 36px; /* Larger heading for better aesthetics */
+    }
+
+    .login-buttons button,
+    .register-button {
+        padding: 12px 24px; /* Add larger padding for buttons */
+        font-size: 16px; /* Increase button font size */
+    }
+}
+

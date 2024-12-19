@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.stunning-heading{
+    font-family: "Raleway", sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 32px;
+    color: #092c42;
+    
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .stunning-card .Card{
+    padding: 16px;
+    width: 300px;
+    height: 300px;
+    transition: transform 0.2s;
+    border: none;
+   
+  }
+  
+  .card-img-wrapper {
+    overflow: hidden;
+  }
+  
+  .stunning-card .card-img-top {
+    transition: transform 0.3s ease;
+  }
+  
+  .stunning-card .card-img-top:hover {
+    transform: scale(1.1);
+  }
+  
+  .stunning-card p {
+    margin-top: 8px;
+    font-family: "Playfair Display", serif;
+    color: #bf5b49;
+    text-align: center;
+    text-transform: uppercase;
+   
+  }
+  

@@ -1,0 +1,104 @@
+.favorites-page {
+    padding: 20px;
+    font-family: "out-line";
+  }
+  .favorites-page li{
+    list-style-type: none;
+    
+  }
+  
+  .favorites-page h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .favorites-page p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .favorite-item {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .favorite-image img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .favorite-details {
+    margin-left: 20px;
+  }
+  
+  .favorite-details h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .favorite-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .favorite-details button {
+    padding: 5px 10px;
+    background-color: brown;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .favorite-details button:hover {
+    background-color: brown;
+  }
+   */
+   h2{
+    font-family: "Josefin Sans", sans-serif ;
+   }
+   .favorites-page li{
+    list-style-type: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+   }
+   .favorite-item{
+   display: flex;
+   gap: 10px;
+   }
+   .favorite-image img{
+    width: 100px;
+   }
+  
+   .favorite-details p{
+    font-family: "Josefin Sans", sans-serif ;
+    text-transform: capitalize;
+    color: brown;
+   }
+   .favorite-details h4{
+    font-family: "Josefin Sans", sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: brown;
+   }
+   button{
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+   }
+   
