@@ -76,8 +76,8 @@ function Sign() {
           />
         </div>
         <div className="register-buttons">
-          <button type="submit" className="btn btn-primary register-button">Register</button>
-          <Link to='/login' className='btn btn-primary login-button'>Login</Link>
+          <button type="submit" className="btn btn-primary register-button">Login</button>
+          <Link to='/login' className='btn btn-primary login-button'>Register</Link>
         </div>
       </form>
     </div>

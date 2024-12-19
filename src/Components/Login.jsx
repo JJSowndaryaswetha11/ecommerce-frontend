@@ -64,8 +64,8 @@ function Login() {
           />
         </div>
        <div className="login-buttons">
-       <button type="submit" className="btn btn-primary">Login</button><br /><br />
-       <Link to='/register' className='btn btn-primary register-button'>Register</Link>
+       <button type="submit" className="btn btn-primary">Register</button><br /><br />
+       <Link to='/register' className='btn btn-primary register-button'>Login</Link>
        </div>
       </form>
     </div>
