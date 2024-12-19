@@ -1,4 +1,4 @@
-/* Cart.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Outfit:wght@100..900&family=Ruwudu:wght@400;500;600;700&display=swap');
  .cart-heading{
   font-family: "Josefin Sans", sans-serif;
@@ -101,7 +101,7 @@
     justify-content: center;
     text-decoration: none;
    }
-   /* Media Queries */
+
 @media (max-width: 768px) {
   .cart {
     flex-direction: column;
